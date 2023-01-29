@@ -3,13 +3,13 @@ import { FaCat } from "react-icons/fa";
 import { IoLogoWordpress } from "react-icons/io";
 type Props = {};
 const styles = {
-    wrapper: "flex justify-center",
-  container: "bg-black rounded-t-[42px] h-[6rem] w-5/6",
+    wrapper: "px-4 md:px-10",
+  container: "bg-black rounded-t-[42px] h-[6rem] md:flex justify-between items-center",
   name: "flex justify-center",
-  title: "font-mono text-base mx-4 my-4 text-white pl-2",
+  title: "font-mono text-base text-white my-4 mx-4",
   avatar: " my-4 text-white",
   infor: "flex justify-center",
-  icon: "text-white text-xl mr-2",
+  icon: "text-white text-xl",
   content: "text-white text-sm",
 };
 const Footer = (props: Props) => {
