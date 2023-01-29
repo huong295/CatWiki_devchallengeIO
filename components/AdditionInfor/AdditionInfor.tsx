@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import photo1 from "../../assets/img/photo1.jpg";
 type Props = {};
 const styles = {
-  container: "px-5",
+  container: "px-5 md:px-10",
   image: "",
   wrapper: "bg-black px-10 rounded-t-[42px]",
   title: "font-mono text-xl text-white py-4 ",
@@ -18,7 +18,7 @@ const styles = {
 
   iconLine: "font-bold mt-[-8px]",
   nameMainList: "font-bold text-xl py-4",
-  mainList: "grid grid-cols-2 gap-2",
+  mainList: "grid grid-cols-2 gap-4 md:grid-cols-4",
   namePost: "font-bold font-mono py-2",
   detailList: "",
   images:"rounded-xl", 
