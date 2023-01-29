@@ -3,16 +3,21 @@ import React from 'react'
 type Props = {}
 const styles ={
     container:"",
-    banner:"bg-[url('/assets/img/photo1.jpg')] ",
-    mainList:""
+    nameList:"",
+   
+    iconLine:"",
+    nameMainList:"",
+    mainList:"",
 }
 
 const ListPost = (props: Props) => {
   return (
    <div className={styles.container}>
-        <div className={styles.banner}>
+        <div className={styles.nameList}>Most Searched Breeds
 
         </div>
+        <div className={styles.iconLine}>___________</div>
+        <div className={styles.nameMainList}></div>
         <div className={styles.mainList}></div>
    </div>
   )

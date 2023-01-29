@@ -1,13 +1,14 @@
 import React from 'react'
-import ListPost from "../ListPost/ListPost"
+import DetailPost from "../DetailPost/DetailPost"
 import AdditionInfor from '../AdditionInfor/AdditionInfor'
 type Props = {}
 
 const Main = (props: Props) => {
   return (
     <div>
-        <ListPost/>
+        
         <AdditionInfor/>
+        <DetailPost/>
     </div>
   )
 }
